@@ -1,2 +1,2 @@
 # sinejack.github.io
-A page using github
+Welcome to Github pages. Explore and discover the wonders of website.
