@@ -1,0 +1,182 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <!-- External script links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="../scripts/home.js" type="text/javascript"></script>
+
+    <title>Home - Sinejack.github.io</title>
+</head>
+
+<header>
+    <div id="nav-placeholder"></div>
+
+    <div class="container">
+        <h1 style="text-align: center;">Welcome!</h1>
+        <h2>This website is powered by <a href="https://pages.github.com/">Github page</a>.</h2>
+    </div>
+</header>
+
+<hr />
+
+<body>
+    <div class="container">
+        <div class="row" style="margin-bottom: 2em;">
+            <div class="col-lg-12 col-sm-3">
+                <label>All the knowledge I learnt from HealthMetrics:</label>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary"><a href="migration.html">Migrations command for
+                            EF6 and EF Core</a></li>
+                    <li class="list-group-item list-group-item-primary"><a href="#">Simple and easy to read git
+                            message</a></li>
+                    <li class="list-group-item list-group-item-primary"><a href="#">Pull request guide</a></li>
+                    <li class="list-group-item list-group-item-primary"><a href="#">Apache JMeter</a></li>
+                    <li class="list-group-item list-group-item-primary"><a href="#">Private NuGet Gallery</a></li>
+                    <li class="list-group-item list-group-item-secondary"><i>To be continued...</i></li>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 2em;">
+            <div class="col-lg-12 col-sm-3">
+                <h5>Small coding tips</h5>
+                <div class="accordion" id="codingTips">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="simpleFunctionHeading">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#simpleFunction" aria-expanded="false" aria-controls="simpleFunction">
+                                Functions
+                            </button>
+                        </h2>
+                        <div id="simpleFunction" class="accordion-collapse collapse"
+                            aria-labelledby="simpleFunctionHeading">
+                            <div class="accordion-body">
+                                <pre style="color: white; background-color:grey; text-align:left">
+                                    <code>
+                                        // Always begin function names with verbs
+                                        public void GetEmployees(){}
+                                    </code>
+                                </pre>
+                                <pre style="color: white; background-color:grey;">
+                                    <code>
+                                        // Accept no more than 3 arguments
+                                        public void GetEmployees(string name, int age, string companyName){}
+                                    </code>
+                                </pre>
+                                <pre style="color: white; background-color:grey;">
+                                    <code>
+                                        public void GetEmployees(string name, int age, string companyName){
+                                            
+                                            // Declare variables
+                                            List&lt;Employee&gt; employees = new();
+                                            double averageAge = 0.0;
+                                            string bestEmployeeOfTheMonth = string.Empty;
+
+                                            // Logic goes here
+                                        }
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="dockerHeading">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#docker" aria-expanded="false" aria-controls="docker">
+                                Docker
+                            </button>
+                        </h2>
+                        <div id="docker" class="accordion-collapse collapse" aria-labelledby="dockerHeading">
+                            <div class="accordion-body">
+                                <pre style="color: white; background-color:grey;">
+                                    <code></code>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-bottom: 2em;">
+            <div class="col-lg-12 col-sm-3">
+                <img src="../images/mastercard.png" alt="Unable to preview image." width="100px" height="75px">
+                <img src="../images/visa.png" alt="Unable to preview image." width="100px" height="90px">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Make a donation</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">All websites, including this one requires fund to keep it alive.
+                            All
+                            donations will go straight into my wallet.</p>
+                        <a href="#" class="card-link">Donate</a>
+                        <a href="#" class="card-link">Buy me a drink instead</a>
+
+                        <div class="alert alert-danger" style="margin-top: 10px;">
+                            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img"
+                                aria-label="Danger:">
+                                <use xlink:href="#exclamation-triangle-fill" />
+                            </svg>
+                            No matter which webpage you are browsing, watch out for phishing links!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 2em;">
+            <div class="col-lg-12 col-sm-3">
+
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-bottom: 2em;">
+            <div class="col-lg-12 col-sm-3">
+                <label>How I feel about HealthMetrics</label>
+            </div>
+        </div>
+
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+            </symbol>
+            <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+            </symbol>
+            <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                <path
+                    d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+            </symbol>
+        </svg>
+
+</body>
+
+
+<footer>
+
+</footer>
+
+</html>
